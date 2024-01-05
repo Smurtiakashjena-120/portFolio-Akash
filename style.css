@@ -58,7 +58,7 @@ box-shadow: 1px 0px 5px white,1px 0px 15px white;
     height:20rem;
     width: 20rem;
     border-radius: 50%;
-    background-image: url("/assets/bicky.jpg");
+    background-image: url("assets/bicky.jpg");
     background-size: cover;
     box-shadow:0 0 5px #bb69cb,0 0 15px #bb69cb,0 0 25px #bb69cb,0 0 100px #bb69cb;
      animation: dp-animate 3s ease-in 2s infinite;

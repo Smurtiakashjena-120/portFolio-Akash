@@ -60,7 +60,7 @@
         height:15rem;
         width: 15rem;
         border-radius: 50%;
-        background-image: url("/assets/bicky.jpg");
+        background-image: url("assets/bicky.jpg");
         background-size: cover;
         box-shadow:0 0 5px #bb69cb,0 0 15px #bb69cb,0 0 25px #bb69cb,0 0 100px #bb69cb;
          animation: dp-animate 4s ease-in 2s infinite;
@@ -184,7 +184,7 @@
         height:12rem;
         width: 12rem;
         border-radius: 50%;
-        background-image: url("/assets/bicky.jpg");
+        background-image: url("assets/bicky.jpg");
         background-size: cover;
         box-shadow:0 0 5px #bb69cb,0 0 15px #bb69cb,0 0 25px #bb69cb,0 0 100px #bb69cb;
          animation: dp-animate 4s ease-in 2s infinite;
