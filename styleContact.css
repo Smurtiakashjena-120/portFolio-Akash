@@ -1,0 +1,79 @@
+.backsheet{
+    color: white;
+     width:99%;
+     background-color:black;
+     padding-top: 1.5rem;
+     padding-left: 1rem;
+     border: 1px solid rgb(18, 17, 17);
+     border-radius: 0.2rem;
+    }
+@media(min-width:650px){
+.contact{
+    width:99%;
+    background-color:black;
+    border: 1px solid rgb(18, 17, 17);
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.contact-info{
+    height: auto;
+width: 40%;
+background-color: black;
+border-radius: 0.2rem;
+}
+.contact-introParent{
+    display: flex;
+    justify-content: center;
+}
+.contact-intro{
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 5px rgb(43, 43, 201), 0 0 15px rgb(43, 43, 201), 0 0 25px rgb(43, 43, 201), 0 0 50px rgb(43, 43, 201);
+    color: blue;
+    padding: 2%;
+    margin: 2%;
+    width: 80%;
+}
+
+.contack-link{
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 5px rgb(112, 112, 152), 0 0 15px rgb(112, 112, 152), 0 0 25px rgb(112, 112, 152), 0 0 50px rgb(112, 112, 152);
+    color: blue;
+}
+.contack-link button{
+    cursor: pointer;
+    background-color:rgb(209, 93, 10);
+    border:1px solid rgb(209, 93, 10);
+    transform: scale(1.2);
+    border-radius: 0.4rem;
+    margin:2rem;
+
+}
+.contact-media{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contack-link img{
+    height:5vh ;
+    margin: 1vh;
+    margin-bottom: 3vh;
+}
+
+.thanks{
+    padding: 1.5rem;
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family:cursive;
+    color: darkturquoise;
+   
+}
+}

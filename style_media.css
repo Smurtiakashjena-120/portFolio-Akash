@@ -1,0 +1,258 @@
+.backsheet{
+    color: white;
+     width:99%;
+     background-color:black;
+     padding-top: 1.5rem;
+     padding-left:0.5rem;
+     padding-right:0.5rem;
+     border: 1px solid rgb(18, 17, 17);
+     border-radius: 0.2rem;
+ }
+ @media(min-width:340px) and (max-width:650px){
+    .landing-navbar{
+        margin-bottom: 1rem;
+        height:2.5rem ;
+        width: 100%;
+        background-color:black;
+        border: 1px solid white;
+        border-radius: 0.2rem;
+        display: flex;
+        justify-content: end;
+    
+    }
+    .landing-navbar a{
+        color: blue;
+        cursor: pointer;
+        padding: 0.8rem;
+        text-decoration:none;
+        font-size: 2vh;
+    }
+    .landing-navbar:hover{
+    box-shadow:0 0 5px #03e9f4,0 0 15px #03e9f4,0 0 25px #03e9f4,0 0 100px #03e9f4;
+    }
+    .landing-content{
+        height: 12rem;
+        width: 99%;
+       background-color:black;
+     display: flex;
+    justify-content: center; 
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    box-shadow: 1px 0px 5px white,1px 0px 15px white;
+    
+    
+    }
+    .navodayan{
+        display: flex;
+        align-items: center;
+        font-size:420%;
+        color:white;
+        text-shadow: 0 0 4px rgb(130, 35, 35),0 0 14px rgb(130, 35, 35),0 0 24px rgb(130, 35, 35),0 0 34px rgb(130, 35, 35) ;
+    }
+    .navodayan p{
+        -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(79, 15, 15, 0), rgba(115, 24, 24, 0.4));
+    
+    }
+    .profile-image{
+        position: absolute;
+        transform: rotateY(0deg);
+        top: 10rem;
+        height:15rem;
+        width: 15rem;
+        border-radius: 50%;
+        background-image: url("/assets/bicky.jpg");
+        background-size: cover;
+        box-shadow:0 0 5px #bb69cb,0 0 15px #bb69cb,0 0 25px #bb69cb,0 0 100px #bb69cb;
+         animation: dp-animate 4s ease-in 2s infinite;
+    }
+    .profile-image:hover{
+        box-shadow:0 0 5px #03e9f4,0 0 15px #03e9f4,0 0 25px #03e9f4,0 0 100px #03e9f4;
+        animation: none;
+    }
+    @keyframes dp-animate{
+        from{
+            transform: rotateY(0deg);
+        }
+        to{
+            transform: rotateY(360deg);
+        }
+    }
+    .intro{
+        margin-top: 10rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 1.7rem;
+        text-shadow: 0 0 4px orange,0 0 5px orange,0 0 8px orange,0 0 10px orange;
+    }
+    .about{
+        color: white;
+        font-size: 1rem;
+        font-family: cursive;
+        bottom: 2rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .load{
+        margin-left:0.8rem;
+    }
+    @keyframes loading{
+        0%{
+            opacity:1;
+            transform: translateY(0);
+            }
+        100%{
+            opacity:0;
+            transform: translateY(-7px);
+        }
+    }
+    .load1{
+        animation: loading 1s linear 0.4s infinite;
+    }
+    .load2{
+        animation: loading 1s linear 0.8s infinite;
+    }
+    .load3{
+        animation: loading 1s linear 1.2s infinite;
+    }
+    .load4{
+        animation: loading 1s linear 1.6s infinite;
+    }
+    .load5{
+        animation: loading 1s linear 2s infinite;
+    }
+    .load6{
+        animation: loading 1s linear 2.4s infinite;
+    }
+    .load7{
+        animation: loading 1s linear 2.8s infinite;
+    }
+    .load8{
+        animation: loading 1s linear 3.2s infinite;
+    }
+ }
+ @media(max-width:340px){
+    .landing-navbar{
+        margin-bottom: 0.5rem;
+        height:2rem ;
+        width: 100%;
+        background-color:black;
+        border: 1px solid white;
+        border-radius: 0.2rem;
+        display: flex;
+        justify-content: end;
+    
+    }
+    .landing-navbar a{
+        color: rgb(238, 129, 82);
+        cursor: pointer;
+        padding: 1rem;
+        text-decoration:none;
+        font-size: 1.05vh;
+    }
+    .landing-navbar:hover{
+    box-shadow:0 0 5px #03e9f4,0 0 15px #03e9f4,0 0 25px #03e9f4,0 0 100px #03e9f4;
+    }
+    .landing-content{
+        height: 10rem;
+        width: 99%;
+       background-color:black;
+     display: flex;
+    justify-content: center; 
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    box-shadow: 1px 0px 5px white,1px 0px 15px white;
+    
+    
+    }
+    .navodayan{
+        display: flex;
+        align-items: center;
+        font-size:300%;
+        color:white;
+        text-shadow: 0 0 4px rgb(130, 35, 35),0 0 14px rgb(130, 35, 35),0 0 24px rgb(130, 35, 35),0 0 34px rgb(130, 35, 35) ;
+    }
+    .navodayan p{
+        -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(79, 15, 15, 0), rgba(115, 24, 24, 0.4));
+    
+    }
+    .profile-image{
+        position: absolute;
+        transform: rotateY(0deg);
+        top: 8rem;
+        height:12rem;
+        width: 12rem;
+        border-radius: 50%;
+        background-image: url("/assets/bicky.jpg");
+        background-size: cover;
+        box-shadow:0 0 5px #bb69cb,0 0 15px #bb69cb,0 0 25px #bb69cb,0 0 100px #bb69cb;
+         animation: dp-animate 4s ease-in 2s infinite;
+    }
+    .profile-image:hover{
+        box-shadow:0 0 5px #03e9f4,0 0 15px #03e9f4,0 0 25px #03e9f4,0 0 100px #03e9f4;
+        animation: none;
+    }
+    @keyframes dp-animate{
+        from{
+            transform: rotateY(0deg);
+        }
+        to{
+            transform: rotateY(360deg);
+        }
+    }
+    .intro{
+        margin-top: 8rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 1.2rem;
+        text-shadow: 0 0 4px orange,0 0 5px orange,0 0 8px orange,0 0 10px orange;
+    }
+    .about{
+        color: white;
+        font-size: 0.75rem;
+        font-family: cursive;
+        bottom: 1.5rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .load{
+        margin-left:0.8rem;
+    }
+    @keyframes loading{
+        0%{
+            opacity:1;
+            transform: translateY(0);
+            }
+        100%{
+            opacity:0;
+            transform: translateY(-7px);
+        }
+    }
+    .load1{
+        animation: loading 1s linear 0.4s infinite;
+    }
+    .load2{
+        animation: loading 1s linear 0.8s infinite;
+    }
+    .load3{
+        animation: loading 1s linear 1.2s infinite;
+    }
+    .load4{
+        animation: loading 1s linear 1.6s infinite;
+    }
+    .load5{
+        animation: loading 1s linear 2s infinite;
+    }
+    .load6{
+        animation: loading 1s linear 2.4s infinite;
+    }
+    .load7{
+        animation: loading 1s linear 2.8s infinite;
+    }
+    .load8{
+        animation: loading 1s linear 3.2s infinite;
+    }
+ }
